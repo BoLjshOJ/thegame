@@ -1,1 +1,14 @@
-
+spring:
+  jpa:
+    show-sql: false
+    properties:
+      hibernate:
+        ddl-auto: update
+        format_sql: false
+  application:
+    name: thegame
+    version: "0.0.1"
+  datasource:
+    url: jdbc:postgresql://localhost:5432/postgres?stringtype=unspecified
+    username: "postgres"
+    password: "postgres"
